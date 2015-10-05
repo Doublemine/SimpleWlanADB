@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">WiFi ADB</string>
+
+
+    <string name="drawer_open">抽屉打开</string>
+    <string name="drawer_close">抽屉关闭</string>
+    <string name="item_cb">连接WIFI自动打开</string>
+
+    <string name="drawer_menu_actived_notify_title">通知栏显示</string>
+    <string name="drawer_menu_actived_notify_summary">当服务启动完成时，在通知栏显示连接信息。</string>
+    <string name="drawer_menu_disable_when_wifi_off_title">断开WiFi禁用服务</string>
+    <string name="drawer_menu_disable_when_wifi_off_summary">当设备从WiFi断开连接时，关闭ADB服务。</string>
+    <string name="drawer_menu_lock_wifi_title">禁用WiFi休眠</string>
+    <string name="drawer_menu_lock_wifi_summary">禁用WiFi休眠来防止某些设备在熄屏状态下WiFi暂时不工作的问题。</string>
+    <string name="drawer_menu_exit_disable_title">应用关闭时禁用服务</string>
+    <string name="drawer_menu_exit_disable_summary">退出应用时自动关闭服务。</string>
+    <string name="drawer_menu_divider_switch">功能设置</string>
+    <string name="drawer_menu_divider_other">其它选项</string>
+    <string name="alert_input_port_summary">请注意，如果没有充分的理由，请不要修改端口号，否则可能造成程序运行异常等情况。如果你充分了解可能带来的后果，请在下方填入1000~65535之间的任意一个数字来作为新的端口:</string>
+    <string name="fragment_show_info_text_view">ADB服务已被关闭</string>
+    <string name="fragment_start_wifiadb_no_wifi">当前设备未连接到WLAN，请连接WLAN后再启动WIFI ADB！</string>
+
+    <!--以下为配置变量信息,请不要国际化-->
+    <string name="preference_config_name">drawer_menu_config</string>
+    <string name="preference_is_first_run">is_first_run</string>
+    <string name="preference_notify_when_active">notify_when_active</string>
+    <string name="preference_disable_when_wifi_disconnect">disable_when_wifi_disconnect</string>
+    <string name="preference_disable_wifi_sleep">disable_wifi_sleep</string>
+    <string name="preference_disable_when_app_exit">disable_when_app_exit</string>
+    <string name="preference_adb_server_port">adb_server_port</string>
+    <string name="notification_id">19940820</string>
+    <string name="service_close_adb_success">service_close_adb_success</string>
+    <string name="fragment_change_switch_image">change_switch_image</string>
+    <string name="notification_close_adb_service">notification_close_adb_service</string>
+    <string name="notification_start_adb_service">notification_start_adb_service</string>
+    <string name="color_purple">#673AB7</string>
+
+
+
+</resources>

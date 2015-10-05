@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xiamo.tk.wifiadb.ui.RootDeviceFragment">
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/fragment_root_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_rooot_device_sb_containger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_root_toolbar"
+        tools:context="xiamo.tk.wifiadb.ui.RootDeviceFragment">
+
+        <ImageSwitcher
+            android:id="@+id/fragment_image_switcher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"></ImageSwitcher>
+    </android.support.design.widget.CoordinatorLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fragment_float_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_rooot_device_sb_containger"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-35dp"
+        android:src="@drawable/ic_adbw_off"
+        app:backgroundTint="#ffffff"
+        app:elevation="10dp"
+        app:fabSize="normal"
+        app:pressedTranslationZ="12dp" />
+
+    <TextView
+        android:id="@+id/fragment_root_info"
+        android:layout_width="fill_parent"
+        android:layout_height="150.0dip"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@id/fragment_float_button"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+</RelativeLayout>

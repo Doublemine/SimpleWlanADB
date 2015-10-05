@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="purple">#673AB7</color>
+    <color name="yellow">#F0AB4E</color>
+    <color name="green">#3DB25B</color>
+    <color name="red">#E11A60</color>
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:padding="16dp"
+
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_marginTop="1dp"
+        android:layout_width="56dp"
+        android:layout_gravity="center"
+        android:src="@drawable/xiamo"
+        android:layout_height="56dp"
+        app:civ_border_width="0dp"
+        app:civ_border_color="#FF000000"
+        />
+<LinearLayout
+    android:layout_marginLeft="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="夏末"
+        android:textColor="#d50b2946"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have a dream, you got to protect it."
+        android:layout_marginTop="5dp"
+        android:textColor="#d50b3e5c"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:layout_gravity="left"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        />
+
+</LinearLayout>
+
+
+</LinearLayout>
+
+    <!--<include layout="@layout/view_divider" />-->
+
+
+</LinearLayout>

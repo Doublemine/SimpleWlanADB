@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fragment_root_no_switcher_toolbar"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ImageButton
+        android:id="@+id/fragment_root_no_switcher_button"
+        android:layout_width="wrap_content"
+        android:src="@drawable/big_icon"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/fragment_root_no_switcher_toolbar"
+        android:layout_marginTop="60dip"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/fragment_root_no_switcher_info"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="150.0dip"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@id/fragment_root_no_switcher_button"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_sb_containger"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment_root_no_switcher_info"
+        tools:context="xiamo.tk.wifiadb.ui.SwitcherFragment"/>
+
+</RelativeLayout>
